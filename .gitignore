@@ -1,0 +1,19 @@
+# 무시할 디렉토리
+.cache/
+GPT2/__pycache__/
+GPT2/character_model/
+GPT2/conversation_sequences_model/
+GPT2/data/kick/
+GPT2/model/
+GPT2/model_optuna/
+KoBERT/Training/
+KoBERT/Validation/
+KoBERT/__pycache__/
+
+# 무시할 파일
+kobert_chatbot_model.pth
+label_encoder.pth
+y_train_data.pth
+
+# 특정 파일 패턴 무시
+*.pyc
